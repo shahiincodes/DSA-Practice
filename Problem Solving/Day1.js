@@ -17,8 +17,8 @@
 
 
 //Q2. to find the extension name of a file
-// const extansion = filenme=>filenme.split(".")[1]
-// console.log(extansion("dvcsdmcv.hbs"))
+const extansion = filenme=>filenme.split(".")[filenme.split(".").length-1]
+console.log(extansion("dvcsdm.cv.hbs.js"))
 // const extansion = filename=> filename.slice(filename.lastIndexOf("."))
 // console.log(extansion("dvcsdmcv.jgchjgv.hbs"))
 
@@ -47,7 +47,7 @@
 //  }
 //  console.log(formatDate())
 
-//Q. 6
-const newStr = str => str.indexOf("New!") === 0 ? str : "New!" + " " + str
+// //Q. 6
+// const newStr = str => str.indexOf("New!") === 0 ? str : "New!" + " " + str
 
-console.log(newStr('New hello'))
+// console.log(newStr('New hello'))
