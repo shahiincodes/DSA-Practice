@@ -12,7 +12,6 @@ const newArray = originalArray.map((element) => {
           return element * 2;
 });
 // console.log("newArray",newArray)
-
 // Filter out undefined values using Boolean constructor
 // const filteredArray = newArray.filter(Boolean);
 

@@ -27,13 +27,23 @@
 // })
 
 
-const p1 = Promise.resolve('hello')
-p1.then((val)=>{
-  console.log(val)
-  return 'Shahin'
-}).then((val)=>{
-  console.log(val)
-  return 'Good morning'
-}).then((val)=>console.log(val))
+// const p1 = Promise.resolve('hello')
+// p1.then((val)=>{
+//   console.log(val)
+//   return 'Shahin'
+// }).then((val)=>{
+//   console.log(val)
+//   return 'Good morning'
+// }).then((val)=>console.log(val))
+
+//reverse an string
+
+let str = "I love my India"
+console.log(str)
+let str2 = str.split("").reverse().join("")
+// let str2 = str.split(' ').map((elm)=>{
+//  return  elm.split("").reverse().join("")
+// }).reverse().join(" ")
+console.log(str2)
 
 
